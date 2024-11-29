@@ -10,7 +10,7 @@
   <body>
     <nav id="desktop-nav">
       <div class="logo">
-        <img src="/assets/usthb_logo.png" alt="logo" style="scale: 0.5" />
+        <img src="/assets/usthb_logo.png" alt="logo" />
       </div>
       <div>
         <ul class="nav-links">
@@ -39,6 +39,102 @@
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile_pic.png"
+          alt="my profile picture"
+          style="border-radius: 50%"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abderrahmane Boussaa</h1>
+        <p class="section__text__p2">Data Science Student / Video Editor</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abderrahmane-boussaa-04960327b/'"
+          />
+          <img
+            src="assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/abdoubsa'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container2">
+          <img src="./assets/about_pic.png" alt="profile" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                5+ years
+                <br />
+                Video Editing
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.D. operational research
+                <br />
+                1st year master Big Data
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ex
+              corporis error deserunt possimus quos. Consectetur odit
+              perferendis perspiciatis quidem quisquam magnam possimus accusamus
+              obcaecati dolores dolorum, qui totam animi veritatis? Animi
+              recusandae fuga odio nemo, nam, quod esse iste aliquam tenetur
+              consequuntur, modi officiis reiciendis autem? Aliquid, labore
+              vitae?
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
