@@ -186,7 +186,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .section__text__p2 {
@@ -264,7 +264,7 @@ section {
 /* ABOUT SECTION  */
 
 #about {
-  margin-top: 7rem;
+  margin-top: 5rem;
   position: relative;
 }
 
@@ -285,9 +285,9 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  background-color: white;
   align-items: center;
   text-align: center;
+  background-color: white;
   width: 100%;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -307,4 +307,119 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+  margin-top: 3rem;
+}
+
+/* EXPERIENCE SECTION */
+#experience {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.item img {
+  cursor: auto;
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.experience-items {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: start;
+}
+
+.experience-container {
+  padding: 1.5rem;
+  background-color: white;
+  flex: 1;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  border-radius: 2rem;
+  height: fit-content;
+  text-align: center;
+}
+
+.experience-title {
+  text-align: center;
+  color: rgb(85, 85, 85);
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.arrow1 {
+  position: absolute;
+  right: 5rem;
+  bottom: 2rem;
+}
+
+/* PROJECTS SECTION  */
+
+#projects {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* CONTACT SECTION  */
+
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background-color: white;
+  margin: 0 auto;
+  padding: 0.5rem;
+  height: fit-content;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER  */
+
+footer {
+  height: 26vh;
+}
+
+footer p {
+  text-align: center;
 }
