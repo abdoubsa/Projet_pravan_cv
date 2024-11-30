@@ -149,6 +149,7 @@ section {
 
 .section-container {
   display: flex;
+  justify-content: center;
 }
 
 /* PROFILE SECTION  */
@@ -158,7 +159,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 70vh;
-  margin: 0 20rem;
+  /* margin: 0 20rem; */
   /* width: 70%; */
 }
 
@@ -178,6 +179,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  margin: auto;
 }
 
 .section__text p {
@@ -268,9 +270,15 @@ section {
   position: relative;
 }
 
+.about-upper-container {
+  display: flex;
+  gap: 2rem;
+}
+
 .about-containers {
   display: flex;
-  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -392,6 +400,7 @@ section {
   margin: 0 auto;
   padding: 0.5rem;
   height: fit-content;
+  width: fit-content;
 }
 
 .contact-info-container {
